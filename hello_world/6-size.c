@@ -1,5 +1,13 @@
 #include <stdio.h>
-
+/**
+ * main - Entry point of the program
+ *
+ * Description: This program prints the size of various data types
+ * on the computer it is compiled and run on.
+ * The sizes include char, int, long int, long long int, and float.
+ *
+ * Return: Always 0 (Success)
+ */
 int main(void)
 {
 
