@@ -6,7 +6,7 @@
  *
  * Description: Assigns a random number to variable n and prints the last digit,
  *              followed by a message indicating whether it is greater than 5,
- *              equal to 0, or less than 6 and not 0.
+ *              equal to 0, or less than 6 and not 0
  *
  * Return: Always 0 (Success)
  */
