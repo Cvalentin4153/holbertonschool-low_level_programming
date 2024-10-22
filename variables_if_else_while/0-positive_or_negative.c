@@ -34,7 +34,7 @@ else if (n == 0)
 else
 {
 
-	printf("%d is positive\n", n);
+	printf("%d is negative\n", n);
 
 }
 
