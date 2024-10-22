@@ -4,7 +4,7 @@
 /**
  * main - Entry point
  *
- * Description: Assigns a random number to variable n and prints the last digit,
+ * Description: Assigns a random number to variable n and prints the last digit
  *              followed by a message indicating whether it is greater than 5,
  *              equal to 0, or less than 6 and not 0
  *
@@ -13,8 +13,11 @@
 int main(void)
 {
 	int n;
+
 	int last_digit;
+
 	srand(time(0));
+
 	n = rand() - RAND_MAX / 2;
 	last_digit = n % 10;
 
