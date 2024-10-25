@@ -2,6 +2,7 @@
 /**
  * _putchar - Custom function to output a character
  *
+ * main: output desired character.
  * Return: 0 on success, or an error code
  */
 int main(void)
