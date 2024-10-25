@@ -21,6 +21,6 @@ for (alpha = 97; alpha <= 122; alpha++)
 {
 _putchar(alpha);
 }
-}
 _putchar('\n');
+}
 }
