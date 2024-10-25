@@ -1,9 +1,10 @@
 #include "main.h"
 /**
- * _putchar - Custom function to output a character
+ * main - Entry point of the program
  *
- * main: output desired character.
- * Return: 0 on success, or an error code
+ * Description: This program prints "_putchar" followed by a new line.
+ *
+ * Return: Always 0 (Success)
  */
 int main(void)
 
