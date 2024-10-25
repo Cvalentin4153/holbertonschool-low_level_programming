@@ -13,14 +13,13 @@ void print_alphabet_x10(void)
 {
 
 int tm;
-int alpha=97;
+int alpha;
 
 for (tm = 0; tm < 10; tm++)
 {
-while (alpha < 122)
+for (alpha = 97; alpha <= 122; alpha++)
 {
 _putchar(alpha);
-alpha++;
 }
 }
 _putchar('\n');
