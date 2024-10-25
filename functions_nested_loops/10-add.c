@@ -1,8 +1,13 @@
 #include "main.h"
 /**
-*
-*This function adds the two integers and returns the sum of both.
-*add function declares the two variables and returns the sum of both.
+add - Adds two integers and returns the result
+ * @a: The first integer
+ * @b: The second integer
+ *
+ * Description: This function takes two integers as input, adds them,
+ *              and returns the result.
+ *
+ * Return: The sum of the two integers
 */
 int add(int num1, int num2)
 
