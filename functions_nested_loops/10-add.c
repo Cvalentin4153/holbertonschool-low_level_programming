@@ -2,7 +2,7 @@
 /**
 *
 *This function adds the two integers and returns the sum of both.
-*
+*add function declares the two variables and returns the sum of both.
 */
 int add(int num1, int num2)
 
