@@ -1,7 +1,6 @@
 #include "main.h"
 /**
  * _putchar - Custom function to output a character
- * @c: The character to output
  *
  * Return: 0 on success, or an error code
  */
