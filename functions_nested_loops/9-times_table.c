@@ -1,8 +1,8 @@
 #include "main.h"
 
 /**
-*
-* Description- This functions prints the 9 times table, starting from 0.
+*times_table - Prints the 9 times table, starting from 0
+* Description- This functions prints the 9 times table in a grid format.
 *
 */
 
