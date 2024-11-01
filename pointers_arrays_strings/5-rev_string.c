@@ -1,5 +1,11 @@
 #include "main.h"
-
+/**
+ * rev_string - Reverses a string in place
+ * @s: pointer to the string to be reversed
+ *
+ * Description: This function reverses the characters in a string by
+ * swapping characters from the start and end, moving toward the center.
+ */
 void rev_string(char *s)
 {
 int length = 0;
