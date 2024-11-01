@@ -13,7 +13,7 @@ int var = 0;
 	while (str[var] != '\0')
 	{
 		_putchar(str[var]);
-		var += 2;
+		var += 3;
 	}
 		_putchar('\n');
 }
