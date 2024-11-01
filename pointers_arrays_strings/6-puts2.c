@@ -12,8 +12,11 @@ int var = 0;
 
 	while (str[var] != '\0')
 	{
+		if (var % 2 == 0)
+		{
 		_putchar(str[var]);
-		var += 2;
+		}
+		var++;
 	}
 		_putchar('\n');
 }
