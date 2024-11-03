@@ -26,5 +26,5 @@ int j = 0;
 		j++;
 	}
 		dest[i] = '\0';
-	return dest;
+	return (dest);
 }
