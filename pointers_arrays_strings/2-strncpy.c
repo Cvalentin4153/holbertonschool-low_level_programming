@@ -7,7 +7,8 @@
  *
  * Description: This function copies at most n characters from src to dest.
  * If src has fewer than n characters, the rest of dest will be padded with
- * null bytes. If src has n or more characters, dest will not be null-terminated.
+ * null bytes. If src has n or more characters,
+ * dest will not be null-terminated.
  *
  * Return: pointer to the destination string dest
  */
