@@ -34,5 +34,5 @@ int j;
 				break;
 			}
 	}
-	return count;
+	return (count);
 }
