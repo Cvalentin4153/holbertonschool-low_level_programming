@@ -21,11 +21,16 @@ int _helper(int n, int i)
 		return (_helper(n, i + 1));
 	}
 }
- /**
+/**
  * is_prime_number - Checks if a number is prime
  * @n: The number to check
  *
- * Return: 1 if n is a prime number, 0 otherwise
+ * Description: Uses recursion to determine if the input number is a prime
+ * number. If the number is less than or equal to 1, it is not prime and 
+ * the function returns 0. Otherwise, it calls a helper function to check 
+ * for factors.
+ *
+ * Return: 1 if n is a prime number, 0 if it is not
  */
 int is_prime_number(int n)
 {
