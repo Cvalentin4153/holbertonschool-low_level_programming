@@ -26,8 +26,8 @@ int _helper(int n, int i)
  * @n: The number to check
  *
  * Description: Uses recursion to determine if the input number is a prime
- * number. If the number is less than or equal to 1, it is not prime and 
- * the function returns 0. Otherwise, it calls a helper function to check 
+ * number. If the number is less than or equal to 1, it is not prime and
+ * the function returns 0. Otherwise, it calls a helper function to check
  * for factors.
  *
  * Return: 1 if n is a prime number, 0 if it is not
