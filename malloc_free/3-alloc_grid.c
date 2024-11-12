@@ -5,8 +5,10 @@
  * @width: width of the grid (number of columns)
  * @height: height of the grid (number of rows)
  *
- * Description: Allocates memory for a 2D grid of integers, initializes all elements to 0.
- * If width or height is 0 or negative, returns NULL. Handles memory allocation failures.
+ * Description: Allocates memory for a 2D grid of integers,
+ * initializes all elements to 0.
+ * If width or height is 0 or negative,
+ * returns NULL. Handles memory allocation failures.
  *
  * Return: pointer to the 2D array, or NULL if failure occurs
  */
