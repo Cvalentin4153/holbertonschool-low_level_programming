@@ -28,9 +28,9 @@ int j;
 	{
 		return (NULL);
 	}
-	for (i =0; i < height; i++)
+	for (i = 0; i < height; i++)
 	{
-			grid[i] = malloc(width * sizeof(int));
+		grid[i] = malloc(width * sizeof(int));
 		if (grid[i] == NULL)
 		{
 			while (i > 0)
@@ -38,7 +38,7 @@ int j;
 				i--;
 				free(grid[i]);
 			}
-			free (grid);
+			free(grid);
 			return (NULL);
 		}
 			for (j = 0; j < width; j++)
