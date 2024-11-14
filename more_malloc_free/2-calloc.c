@@ -20,7 +20,7 @@ char *ptr;
 unsigned int total;
 unsigned int i;
 
-if (nmemb == 0 || size == 0)
+	if (nmemb == 0 || size == 0)
 	{
 		return (NULL);
 	}
