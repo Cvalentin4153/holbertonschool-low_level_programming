@@ -5,10 +5,12 @@
 /* Calculate the length of a string without strlen */
 int string_length(char *str)
 {
-    int len = 0;
-    while (str[len] != '\0') /* Count characters until null terminator */
-        len++;
-    return (len);
+int len = 0;
+	while (str[len] != '\0')
+	{
+		len++;
+	}
+	return (len);
 }
 /**
  * new_dog - Creates a new dog object
