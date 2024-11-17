@@ -35,45 +35,36 @@ int owner_len;
 int i;
 
 new_dog = malloc(sizeof(dog_t));
-	if (new_dog == NULL)
-	{
+	if (new_dog == NULL) {
 		return (NULL);
 	}
-	if (name != NULL)
-	{
+	if (name != NULL) {
 		name_len = string_length(name);
 		new_name = malloc(name_len + 1);
-			if (new_name == NULL)
-			{
+			if (new_name == NULL) {
 				free(new_dog);
 				return (NULL);
 			}
-		for (i = 0; i <= name_len; i++)
-		{
+		for (i = 0; i <= name_len; i++) {
 		new_name[i] = name[i];
 		}
 	}
-	else
-	{
+	else {
 		new_name = NULL;
 	}
-	if (owner != NULL)
-	{
+	if (owner != NULL) {
 		owner_len = string_length(owner);
 		new_owner = malloc(owner_len + 1);
-			if (new_owner == NULL)
-			{
+			if (new_owner == NULL) {
 				free(new_name);
 				free(new_dog);
 			return (NULL);
 			}
-		for (i = 0; i <= owner_len; i++)
-		{
+		for (i = 0; i <= owner_len; i++) {
 			new_owner[i] = owner[i];
 		}
 	}
-	else
-	{
+	else {
 		new_owner = NULL;
 	}
 new_dog->name = new_name;
