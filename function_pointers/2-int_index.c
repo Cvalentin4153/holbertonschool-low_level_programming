@@ -10,8 +10,7 @@ int i;
 	}
 	for (i = 0; i < size; i++)
 	{
-		cmp(array[i]);
-		if (i != 0)
+		if (cmp(array[i]) != 0)
 			{
 				return (i);
 			}
