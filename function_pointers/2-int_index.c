@@ -11,13 +11,10 @@ int i;
 	for (i = 0; i < size; i++)
 	{
 		cmp(array[i]);
-	}
 		if (i != 0)
 			{
 				return (i);
 			}
-			else
-			{
-				return (-1);
-			}
+	}
+	return (-1);
 }
