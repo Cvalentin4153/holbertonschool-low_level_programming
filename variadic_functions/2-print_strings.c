@@ -28,7 +28,7 @@ char *str;
 		}
 		if (separator != NULL && i < n - 1)
 		{
-			printf("%s\n", separator);
+			printf("%s", separator);
 		}
 	}
 	printf("\n");
