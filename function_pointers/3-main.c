@@ -13,6 +13,7 @@ int main(int argc, char *argv[])
 	int num2;
 	int result;
 	int (*opr)(int, int);
+
 	if (argc != 4)
 	{
 		printf("Error\n");
@@ -27,6 +28,6 @@ int main(int argc, char *argv[])
 		exit(99);
 	}
 	result = opr(num1, num2);
-	printf ("%d\n", result);
+	printf("%d\n", result);
 	return (0);
 }
