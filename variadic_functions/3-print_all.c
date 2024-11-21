@@ -34,7 +34,7 @@ char *str, *separator = "";
 			break;
 		case 's':
 			str = va_arg(lst, char *);
-			if(!str)
+			if (!str)
 			{
 				str = "(nil)";
 			}
