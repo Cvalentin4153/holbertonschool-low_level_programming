@@ -27,7 +27,7 @@ char *str, *separator = "";
 			printf("%s%c", separator, va_arg(lst, int));
 			break;
 		case 'i':
-			printf("%s%s", separator, va_arg(lst, int));
+			printf("%s%d", separator, va_arg(lst, int));
 			break;
 		case 'f':
 			printf("%s%f", separator, va_arg(lst, double));
