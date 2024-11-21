@@ -24,13 +24,13 @@ char *str, *separator = "";
 		switch (format[i])
 		{
 		case 'c':
-			printf("%sc", separator, va_arg(lst, int));
+			printf("%s%c", separator, va_arg(lst, int));
 			break;
 		case 'i':
-			printf("%si", separator, va_arg(lst, int));
+			printf("%s%s", separator, va_arg(lst, int));
 			break;
 		case 'f':
-			printf("%sf", separator, va_arg(lst, double));
+			printf("%s%f", separator, va_arg(lst, double));
 			break;
 		case 's':
 			str = va_arg(lst, char *);
@@ -40,7 +40,7 @@ char *str, *separator = "";
 			}
 			printf("%s%s", separator, str);
 			break;
-			default;
+		default:
 			i++;
 			continue;
 		}
